@@ -1,0 +1,52 @@
+*{
+    list-style: none;
+}
+body{
+    background-color: #F1DEC9;
+}
+.basket{
+    border: 1px solid #65451F;
+    background-color: #A4907C;
+}
+.basket h1{
+    padding-left: 20px;
+    color: #65451F;
+}
+.basket .basketwrapper{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    border: 1px solid #65451F;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: #FAEED1;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.card .basketList{
+    display: flex;
+    gap: 10px;
+}
+.marketwrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px 0px;
+}
+button{
+    background-color: #6B240C;
+    color: #FAEED1;
+    border: 1px solid #321E1E;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
